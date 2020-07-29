@@ -1,0 +1,25 @@
+body {
+  background-color: #c49093;
+  font-family: monospace;
+  font-size: 20px;
+}
+button {
+  font-size: 20px;
+  font-family: monospace;
+  background-color: #dfb1ac;
+  border: #dfb1ac;
+}
+p {
+  font-size: 17px;
+  font-family: monospace;
+}
+#main {
+  text-align: center;
+  border: solid 5px #dfb1ac;
+}
+h2 {
+  text-align: center;
+  color: #5e4b49;
+  font-size: 40px;
+  font-family: monospace;
+}

@@ -1,0 +1,33 @@
+body {
+  background-color: white;
+}
+img {
+  width: 300px;
+}
+#main {
+  display: flex;
+  justify-content: space-around;
+
+}
+h1 {
+  text-align: center;
+}
+#button {
+  text-align: center;
+}
+button {
+  background-color: white;
+  border: 1px solid black;
+ }
+#subtotal {
+  display: flex;
+  justify-content: center;
+}
+#footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+h2 {
+  font-weight: bold;
+}

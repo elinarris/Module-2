@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paula's Travel Form</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Travel Form Fill-Out</h1>
+    <div id="div1">
+      <form name="my-form">
+        First Name: <input type="text" name="first-name" required />
+        <br />
+        Last Name: <input type="text" name="last-name" required />
+        <br />
+        Age: <input type="number" name="age" required />
+        <br />
+        Gender: <input type="radio" value="Male" name="gender" required />Male
+        <input type="radio" value="Female" name="gender" required />Female
+        <br />
+        Location:
+        <select name="states" required>
+          <option value="Nevada">Nevada</option>
+          <option value="California">California</option>
+          <option value="Utah">Utah</option>
+        </select>
+        <br />
+        Preferred Diet:
+        <input type="checkbox" name="diet" value="Vegetarian" />Vegetarian
+        <input type="checkbox" name="diet" value="Vegan" />Vegan
+        <input type="checkbox" name="diet" value="Keto" />Keto
+        <input type="checkbox" name="diet" value="No Restrictions" />No Special
+        Diet
+        <br />
+        <br />
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

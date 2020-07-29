@@ -1,0 +1,19 @@
+body {
+  background-color: gray;
+  font-family: monospace;
+}
+button {
+  font-family: monospace;
+  border: solid white 2px;
+  background-color: white;
+  color: black;
+}
+h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+#div1 {
+  border: solid white 2px;
+  width: 600px;
+  display: flex;
+}
