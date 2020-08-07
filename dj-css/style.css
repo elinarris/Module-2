@@ -1,0 +1,84 @@
+/*-----------------BOX 1------------------//*/
+
+#box1 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+#box1:hover {
+    background-color: red;
+}
+
+/*-------------------BOX 2----------------//*/
+
+#box2 {
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    transition-duration: 1s;
+}
+
+#box2:hover {
+    background-color: pink;
+    border: 1px black solid;
+}
+
+/*------------------BOX 3-----------------//*/
+
+#box3 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    transition-property: unset;
+    transition-duration: 2s;
+}
+
+#box3:hover {
+    background-color: blue;
+}
+
+/*-----------------BOX 4------------------//*/
+
+#box4 {
+    height: 200px;
+    width: 200px;
+    border: 1px dotted blueviolet;
+}
+
+#box4:hover {
+    background-color: red;
+    transition-duration: 3s;
+    transition-delay: 800ms;
+}
+
+/*-------------------BOX 5----------------//*/
+
+#box5 {
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    transition: background-color 1s linear 1s, width 1s linear;
+}
+
+#box5:hover {
+    background-color: rgb(155, 207, 214);
+}
+
+/*------------------BOX 6-----------------//*/
+
+#box6 {
+    height: 200px;
+    width: 200px;
+    border: coral 2px solid;
+    transition: border 1s;
+}
+
+#box6:hover {
+    background-color: yellow;
+    border: 2px black solid;
+}
+
+/*------------------FIN.-----------------//*/

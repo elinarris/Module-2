@@ -1,0 +1,170 @@
+body {
+  background: url("https://blog.prezi.com/wp-content/uploads/2019/03/jason-leung-479251-unsplash.jpg")
+    no-repeat bottom center fixed;
+  font-family: monospace;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(6, auto);
+  border: 1px transparent solid;
+}
+#title {
+  background-color: rgb(138, 188, 159, 0.5);
+  background-attachment: scroll, scroll, fixed;
+  grid-column: 1/2;
+  grid-row: 1/1;
+  text-align: center;
+  padding: 30px;
+}
+#title h1 {
+  padding: 15px;
+  margin: -35px;
+  color: black;
+  font-size: 80px;
+  font-family: "Kristi", cursive;
+}
+#view-designs {
+  background: rgba(94, 163, 134, 0.5);
+  grid-column: 2/3;
+  grid-row: 1/1;
+  display: grid;
+  place-content: center;
+  padding: 40px;
+}
+button {
+  height: 100px;
+  background-color: rgba(31, 124, 124, 0.5);
+  border: transparent;
+  font-size: 25px;
+  font-family: georgia;
+  color: rgba(183, 196, 189);
+}
+button:hover {
+  transition-duration: 1s;
+  background-color: rgb(154, 167, 167, 0.5);
+  border: transparent;
+  color: rgba(255, 255, 255, 0.952);
+}
+#paragraph1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: white;
+  padding: 1.5em;
+}
+.authors {
+  background-color: rgb(156, 209, 193);
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding: 2.5em;
+}
+#paragraph2 {
+  background: rgb(138, 188, 159, 0.5);
+  grid-column: 1/2;
+  grid-row: 3/4;
+  padding: 1.5em;
+}
+.links {
+  background: rgba(94, 163, 134, 0.5);
+  grid-column: 2/3;
+  grid-row: 3/4;
+  padding: 5em 3em 3em 3em;
+}
+#paragraph3 {
+  background-color: darkgreen;
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background-color: white;
+  padding: 1.5em;
+}
+#blank {
+  background-color: rgb(156, 209, 193);
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+#footer-quote {
+  background: rgba(94, 163, 134, 0.5);
+  grid-column: 1/3;
+  grid-row: 5/5;
+  padding: 30px;
+  text-align: center;
+  font-family: "Kristi", cursive;
+  font-size: 30px;
+}
+.footer {
+  grid-column: 1/3;
+  grid-row: 6/6;
+  background-color: rgb(156, 209, 193);
+}
+p {
+  font-family: monospace;
+  opacity: 100%;
+  font-size: 15px;
+}
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgba(71, 67, 67, 0.829);
+}
+h3 {
+  color: rgba(226, 226, 226, 0.5);
+  font-family: monospace;
+}
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: transparent;
+}
+
+@media (max-width: 900px) {
+  #view-designs {
+    background: rgba(39, 117, 100, 0.5);
+    grid-column: 1/1;
+    grid-row: 10/10;
+    display: grid;
+    place-content: center;
+    padding: 40px;
+  }
+  .authors {
+    grid-row: 8/8;
+    grid-column: 1/1;
+    border-top: rgba(94, 163, 134) 1px solid;
+  }
+  .links {
+    background-color: teal;
+    grid-row: 9/9;
+    grid-column: 1/2;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(8, auto);
+    border: 1px transparent solid;
+  }
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(156, 209, 193);
+}
+
+.icons > div {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+}
+.icons > div:hover {
+  transition: ease-in;
+  transition-duration: 1s;
+  background-color: rgb(53, 136, 136);
+}
