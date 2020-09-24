@@ -1,0 +1,97 @@
+{
+  "appetizers": [
+    {
+      "item": "Motzarella Sticks",
+      "ingredients": ["Cheese", "bread crumbs", "tomato sauce"],
+      "description": "gooey delicious hot breaded cheese sticks"
+    },
+    {
+      "item": "Chips and Salsa",
+      "ingredients": ["guacamole", "pico de gayo", "tortilla chips"],
+      "description": "yummy hot tortilla chips that can be dipped in either our home-made guac, or spicy salsa"
+    },
+    {
+      "item": "Spinach Dip",
+      "ingredients": ["spinach", "cheese", "chips", "chicken"],
+      "description": "dip our home made tortilla chips in our hot delicious spinach filled dip, with some added chicken bits"
+    }
+  ],
+  "cold sandwiches": [
+    {
+      "item": "Turkey Sandwich",
+      "ingredients": [
+        "white toasted bread",
+        "turkey meat",
+        "cheese",
+        "mayonnaise"
+      ],
+      "description": "oven roasted turkey sandwiched between our chibata bread, with our home made mayonnaise, and added American cheese"
+    },
+    {
+      "item": "Ham and Cheese",
+      "ingredients": ["ham", "cheese", "mustard", "mayonnaise", "bread"],
+      "description": "american cheese and honey glazed ham with our homade mustard, and house white bread"
+    },
+    {
+      "item": "Egg Salad Sandwich",
+      "ingredients": ["eggs", "mayonnaise", "pickles", "bread"],
+      "description": "homade egg salad with our house mayonnaise and fresh pickle slices, on top of our ciabata bread"
+    }
+  ],
+  "hot sandwiches": [
+    {
+      "item": "Cheesey Melt",
+      "ingredients": ["cheese", "bread", "provologne", "spices"],
+      "description": "our grilled cheese melt comes with homade spices, and provolgne cheese on a warm croissoint"
+    },
+    {
+      "item": "Philly Cheese Steak",
+      "ingredients": ["cheese", "bread", "steak", "spices"],
+      "description": "a steak sandwich smothered in Philidelphian cheese, warmed to perfect"
+    },
+    {
+      "item": "Egg & Bacon Sandwich",
+      "ingredients": ["egg", "bacon", "bread", "cheese"],
+      "description": "warm scrambled egg, with honey glazed bacon cooked to perfection on top of our house white bread"
+    }
+  ],
+  "desserts": [
+    {
+      "item": "Hot Fudge Ice Cream",
+      "ingredients": ["fudge", "chocolate", "vanilla ice cream"],
+      "description": "our homade chocolate melted fudge on top of signature Baskin Robbin's vanilla ice cream"
+    },
+    {
+      "item": "Strawberry Cheesecake",
+      "ingredients": [
+        "cheese",
+        "strawberry jam",
+        "cream cheese",
+        "breaded crust"
+      ],
+      "description": "cold cream cheese made, house crusted strawberry cream cheese is to die for"
+    },
+    {
+      "item": "Apple Pie Slice",
+      "ingredients": ["apples", "cinnamon", "crusty bread"],
+      "description": "fresh picked apples, are warmed to perfect in our homeade apple pie powdered with cinnamon"
+    }
+  ],
+  "drinks": [
+    {
+      "item": "House Lemonade",
+      "ingredients": ["lemons", "water", "sugar"],
+      "description": "drink our homade fresh lemonade drizzled with sweet natural sugars and get refreshed all over again"
+    },
+    {
+      "item": "Orange Juice",
+      "ingredients": ["orange", "water", "agave"],
+      "description": "our orange juice is one of a kind, hand picked California oranges mixed with some H20 & agave"
+    },
+    {
+      "item": "Coffee",
+      "ingredients": ["cream", "sugar", "coffee beans", "water"],
+      "description": "we serve hot coffee made to taste"
+    }
+  ]
+}
